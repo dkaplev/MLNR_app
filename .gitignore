@@ -1,0 +1,25 @@
+# Environment / secrets
+.env
+*.env
+.env.local
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+*.egg-info/
+dist/
+build/
+
+# Reports (generated output — don't commit)
+saas_scout/reports/
+
+# macOS
+.DS_Store
+
+# IDE
+.cursor/
+*.cursor-tutor
