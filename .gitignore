@@ -14,8 +14,8 @@ env/
 dist/
 build/
 
-# Reports (generated output — don't commit)
-saas_scout/reports/
+# Reports — tracked in git (cookbook is the source of truth)
+# saas_scout/reports/
 
 # macOS
 .DS_Store
