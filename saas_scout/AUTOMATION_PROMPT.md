@@ -22,7 +22,11 @@ Do not stop early. Write full, complete content at every step.
 
 ## STAGE 0 — LOAD EXISTING COOKBOOK
 
-Check whether the file `saas_scout/reports/COOKBOOK.md` exists.
+**This automation runs in a fresh checkout every time — always pull the latest committed state
+before checking anything.** Run `git pull` (or equivalent) first so you see any cookbook saved by
+a previous run, whether that run happened locally or in a different cloud workspace.
+
+Check whether the file `saas_scout/reports/COOKBOOK.md` exists in the checked-out repo.
 
 **If it exists:**
 Read it fully. Extract every opportunity entry: its title, current score (total and per dimension),
@@ -235,6 +239,10 @@ First added: YYYY-MM-DD | Last updated: YYYY-MM-DD | Score delta this week: [+X 
 
 Repeat for every entry in the final ranked list. Do NOT truncate any section.
 
+Verify the file was actually written to `saas_scout/reports/COOKBOOK.md` inside the git working
+directory — not just displayed in chat. This file MUST persist in the repo, or next week's run
+will have nothing to load and will incorrectly start over from scratch.
+
 ### File 2 — Weekly Delta Report: `saas_scout/reports/delta_YYYY-MM-DD.md`
 
 Create a concise change log for this week's run:
@@ -263,5 +271,25 @@ cookbook yet, but are worth tracking in future runs]
 
 ---
 
+## STAGE 7 — COMMIT AND PUSH (mandatory, do not skip)
+
+The cookbook only compounds week over week if it is saved somewhere every run can reach.
+This automation may run in a different, disposable environment each time — so the ONLY way
+next week's run will see this week's work is if it is committed and pushed to the repo now.
+
+Run, in order:
+```
+git add saas_scout/reports/COOKBOOK.md saas_scout/reports/delta_*.md
+git commit -m "Weekly cookbook update — YYYY-MM-DD"
+git push
+```
+
+If the push fails (e.g. the branch has diverged), pull, resolve, and push again — do not end
+the run with unpushed changes. A run that updates the cookbook locally but fails to push has
+accomplished nothing for future runs.
+
+---
+
 This pipeline runs every Friday. The cookbook is the single source of truth —
 it compounds in quality with every run, never losing good ideas, never ignoring new ones.
+Committing and pushing at the end of every run is what makes that compounding possible.

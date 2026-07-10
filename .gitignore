@@ -14,8 +14,8 @@ env/
 dist/
 build/
 
-# Reports — tracked in git (cookbook is the source of truth)
-# saas_scout/reports/
+# Reports are intentionally tracked — COOKBOOK.md must persist across runs
+# (local and cloud Automation) so each weekly run can build on the last one.
 
 # macOS
 .DS_Store
