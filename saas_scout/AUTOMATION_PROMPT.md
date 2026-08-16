@@ -18,6 +18,11 @@ Every entry in the cookbook must satisfy ALL four criteria:
 Work through every stage below IN ORDER. Do not skip or compress any stage.
 Do not stop early. Write full, complete content at every step.
 
+**HARD STOP — a run is incomplete until both files exist on disk:**
+- `saas_scout/reports/COOKBOOK.md` overwritten with today's ranked top 10
+- `saas_scout/reports/delta_YYYY-MM-DD.md` created for today's date
+Never end in chat-only analysis. If context is long, write the files first, then summarise. A run that discusses scores but does not write both files has failed.
+
 ---
 
 ## STAGE 0 — LOAD EXISTING COOKBOOK
@@ -185,6 +190,8 @@ After both iterations, record the final critic rating and the one remaining open
 ---
 
 ## STAGE 6 — SAVE: Update All Files
+
+**Do this before any user-facing recap.** Chat is not the cookbook. If you only have time for one thing, write these two files.
 
 ### File 1 — Master Cookbook: `saas_scout/reports/COOKBOOK.md`
 
