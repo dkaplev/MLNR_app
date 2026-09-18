@@ -1,42 +1,42 @@
 # SaaS Opportunity Cookbook
-Last updated: 2026-08-16 | Entries: 10/10
+Last updated: 2026-09-18 | Entries: 10/10
 
-> R6 note: Four last-seat/failed-canary exits. **WholesaleDesk removed** — Orderwerks/Zoey/WizCommerce already ship QuickBooks-native B2B portals. **QuoteDock removed** — FasterQuotes/Vesel/Navix own email-forward RFQ. **DataReady removed** — Datris hosted + HubSpot Data Agent. **PromptFence removed** — RAIC/PromptWall/SanctumShield. **RuleFlow** enters on YC’s AI-native compliance RFS + FRTracker-as-primitive. **TokenBill** is finance-facing token shock (not Langfuse). **AuthTrack** is CMS-0057-F clocks for fax-era practices. **BreakWatch** is consumer-side API break alerts. DentPay holds #1 (Samera still Dentally/SoE).
+> R13 note: **MCPCostMonitor removed** — MCPSpend.com (mcpspend.com) shipped live, free tier 25K calls/month, Pro at $29/month; identical product at 10× lower price kills the wedge. **BriefDesk removed** — displaced from top-10 as three new entries score higher. **MarkPack removed** — displaced from top-10; still viable but the window is narrowing. **CRAReport enters at #2** — EU CRA vulnerability reporting obligations started September 11, 2026 (this week). **DORAIncident enters at #5** — DORA incident reporting enforcement expected 2026, first SREP assessments underway. **IntegSecPack enters at #9** — 68% of B2B SaaS companies lost/delayed enterprise deals due to integration security; AI agent authentication is a 2026-specific new procurement ask.
 
 ---
 
 ## #1 — DentPay  ·  80/100  ·  UNCHANGED
-First added: 2026-07-16 | Last updated: 2026-08-16 | Score delta this week: —
+First added: 2026-07-16 | Last updated: 2026-09-18 | Score delta this week: —
 
 > Turn Open Dental / Dentrix production exports into clean associate & hygienist pay — without the Friday spreadsheet.
 
 ### Score Breakdown
-- Solo Buildability:   16/20  (unchanged — CSV-first rule engine)
-- Value Clarity:       18/20  (unchanged — OM ritual self-evident; dentpay.tech + numbers walkthrough)
-- Market Timing:       17/20  (unchanged — Aug 16 canary: Samera FAQ still Dentally + SoE only; custom integrations “tell us what you use,” not a live OD/Dentrix SKU; Xero live, QBO in development; Dentivize still analytics dashboards; OD Provider Payroll still a report)
-- B2B Monetisation:    16/20  (unchanged)
-- Pull Factor:         13/20  (unchanged — study clubs; US outreach guide for discovery calls)
+- Solo Buildability:   16/20  (CSV-first rule engine; OD ADP time-card export confirmed but no plug-and-play production-% payroll bridge exists)
+- Value Clarity:       18/20  (OM ritual self-evident; HRPayPick 2026 confirms gap in all three major US PMS systems)
+- Market Timing:      17/20  (Samera still UK Dentally/SOE; Comparisoft 2026 confirms no native OD/Dentrix/Eaglesoft production-% payroll integration)
+- B2B Monetisation:   16/20  (sticky once configured; wrong paycheck = employer liability)
+- Pull Factor:        13/20  (study clubs; US outreach guide for discovery calls)
 
 **Strengths:**
-- HRPayPick 2026 confirms: no payroll platform has native plug-and-play integration with OD, Dentrix, and Eaglesoft simultaneously. The production-% reconciliation gap is documented and unresolved.
-- Dentivize.com = analytics competitor (dashboard overlay showing take-home %), not a pay calculation engine. DentPay's "CSV-to-paycheck export with anomaly flags" is still unclaimed.
-- Sticky once pay rules configured — wrong paycheck = employer liability; switching cost is existential.
+- HRPayPick 2026 and Comparisoft 2026 both confirm: no payroll platform has native plug-and-play integration with OD, Dentrix, and Eaglesoft for production-% pay. Gap is durable.
+- OD Time Cards export to ADP Workforce Now CSV — but ONLY hours, not production %. Production reconciliation is still manual every pay period.
+- Sticky once pay rules configured — switching cost is existential (wrong paycheck = employer liability).
 
 **Risks:**
 - Dental Intelligence or Dentrix itself could deepen native pay math in a platform update.
-- Dentivize with expanded payroll reconciliation features would be a direct threat.
+- ADP's established Henry Schein relationship could eventually produce a native production-% bridge.
 - Relationship-heavy sales; CPA/advisor trust needed for paycheck-math credibility.
 
-**Verdict:** Hold #1. US OD CSV-first beachhead still open; watch Samera custom-integration requests.
+**Verdict:** Hold #1. US OD CSV-first beachhead still open; ADP/OD integration only covers hours, not production %.
 
 ### The Pitch
-**Problem:** US dental practices paying associates and hygienists on production still spend hours each pay period exporting Open Dental or Dentrix reports, pasting into Excel, applying lab fees, write-offs, and card-fee rules, then hoping the spreadsheet matches the contract. Open Dental's Provider Payroll report is raw material, not a pay engine. Samera automated this for UK Dentally+Xero; Gusto deposits pay but does not reconcile OD production rules. HRPayPick 2026 confirms no payroll platform has native plug-and-play integration with all three major US PMS systems.
+**Problem:** US dental practices paying associates and hygienists on production still spend hours each pay period exporting Open Dental or Dentrix reports, pasting into Excel, applying lab fees, write-offs, and card-fee rules, then hoping the spreadsheet matches the contract. Open Dental's Provider Payroll report outputs raw production data — it is not a pay engine. OD Time Cards export to ADP Workforce Now, but only hours — not production percentages. Comparisoft 2026 confirms: most payroll platforms handle percentage-of-production only if you manually calculate the figure and enter it as a bonus. No platform does the reconciliation automatically across OD, Dentrix, and Eaglesoft simultaneously.
 
 **Solution:** DentPay imports OD/Dentrix production exports, applies per-provider pay rules once, flags anomalies before payout, and exports an approval pack to Gusto/ADP. Office managers review exceptions; they do not rebuild formulas.
 
 **Target customer:** Office manager / owner at 1–3 location US dental practice on Open Dental or Dentrix with associates or hygienists on production splits.
 
-**Why now:** Production % pay still the norm; UK tools (Samera/Dentivize) proved analytics willingness-to-pay; US PMS vendors have not productised the reconciliation layer.
+**Why now:** Production % pay is still the norm. UK tools (Samera/Dentivize) proved analytics willingness-to-pay in the UK; the US PMS vendors have not productised the reconciliation layer despite confirmed demand.
 
 **Why they buy without being sold to:** An OM who spent Sunday fixing a hygienist underpay uploads last month's OD export, sees the same total with three flagged lab mismatches, and refuses to go back to Excel.
 
@@ -53,144 +53,87 @@ First added: 2026-07-16 | Last updated: 2026-08-16 | Score delta this week: —
 
 ### Critic's Assessment
 **Rating:** 8/10 | **Last critique:** 2026-08-16
-**Strongest part:** Samera’s own FAQ still lists Dentally/SoE — the US export→Excel path is intact.
+**Strongest part:** HRPayPick 2026 + Comparisoft 2026 both confirm the gap independently. ADP/OD integration covers hours only.
 **Open question:** Will practices trust a solo tool with paycheck math without a CPA partnership from day one?
 
 ---
 
----
+## #2 — CRAReport  ·  77/100  ·  NEW
+First added: 2026-09-18 | Last updated: 2026-09-18 | Score delta this week: +77
 
-## #2 — AdvisorAlert  ·  74/100  ·  UNCHANGED
-First added: 2026-07-31 | Last updated: 2026-08-16 | Score delta this week: —
-
-> Catch compliance gaps before the SEC exam does — continuous monitoring built for independent RIAs, not mega-firms.
+> File your ENISA vulnerability notice in minutes — not days of legal back-and-forth.
 
 ### Score Breakdown
-- Solo Buildability:   12/20  (email scanning in a regulated context; SEC API access; false-positive management; harder than a typical SaaS build but a determined solo founder with legal knowledge can ship a 5-check MVP)
-- Value Clarity:       17/20  (SEC deficiency letter = immediate pain trigger; CCO who received one understands the product in 10 seconds)
-- Market Timing:       16/20  (unchanged — Hadrius still custom-quote only; no public starter tier under $5K)
-- B2B Monetisation:    17/20  ($299–799/month vs $5K–20K/year compliance consultant; RIAs are trained to pay for compliance; exceptional value ratio)
-- Pull Factor:         12/20  (RIA compliance community is tight; word-of-mouth travels through custodian networks and compliance study groups; not publicly viral)
+- Solo Buildability:   14/20  (CycloneDX/SPDX SBOM import + ENISA template generator + clocks; OSS primitives exist for SBOM scanning; legal-correctness validation is the hard part)
+- Value Clarity:       17/20  (CRA vulnerability reporting obligations started September 11, 2026 — this week; "what do I report to ENISA?" is a live, immediate pain)
+- Market Timing:       18/20  (perfect window: obligations just started, no purpose-built SaaS exists, Vanta/Drata retrofit will take 6–12 months)
+- B2B Monetisation:    15/20  ($199–699/month for software companies with EU market exposure; clear ROI vs. €15M or 2.5% global turnover fines)
+- Pull Factor:         13/20  (security engineer communities; engineering leaders share when they solve a painful compliance blocker)
 
 **Strengths:**
-- Hadrius $27M raise (July 2026, CRV + YC) validates the RIA compliance automation category unambiguously.
-- Micro-RIA beachhead ($50M–$500M AUM, 1–5 employees) is explicitly underserved — Hadrius starts at ~$12K/year and targets 500+ employee firms.
-- RIAs already pay $5K–$20K/year for compliance consultants; $3,600/year for automated monitoring is an easy value comparison.
+- Timing is as good as it gets: CRA vulnerability reporting obligations became enforceable on September 11, 2026 — seven days before this analysis. No established SaaS tooling exists.
+- SBOM tooling (Syft, Trivy, CycloneDX, SPDX) is mature OSS — the gap is ENISA notification workflow and clock automation, not dependency scanning.
+- The free "CRA Scope Questionnaire" (are you in scope?) is the highest-intent lead magnet possible — every software company selling to the EU needs to answer it.
 
 **Risks:**
-- Regulated space creates legal positioning risk — the product must be sold as a "monitoring tool," not "compliance advice," to avoid investment adviser registration requirements.
-- Hadrius could announce a micro-RIA "starter tier" using some of their $27M, directly competing on price.
-- False positives in email flagging (flagging a normal client email as a compliance violation) erode trust in a regulated, high-stakes environment.
+- Scope ambiguity is the biggest adoption blocker: many SaaS companies don't know if they're "manufacturers of products with digital elements" and will wait for a lawyer to tell them before purchasing.
+- Vanta, Drata, or OneTrust will retrofit CRA support within 6–12 months, leveraging existing trust with 10,000+ customers.
+- SBOM maintenance over a product's lifecycle is genuinely hard — transitive dependencies, version drift, license changes. Underestimating this collapses the value prop.
 
-**Verdict:** Keep micro-RIA beachhead. Open question from R5 still unanswered.
-
-### The Pitch
-**Problem:** Independent registered investment advisors with $50M–$500M AUM typically have 1–5 employees, no dedicated CCO, and rely on an annual compliance consultant for $5,000–$20,000/year. Meanwhile the SEC expects continuous monitoring: reviewing client communications for solicitation violations, sampling marketing content, confirming trades match investment policy statements, maintaining a current compliance calendar. Hadrius's $27M raise in July 2026 validated the category — but Hadrius targets firms with hundreds of employees and starts at ~$12K/year. The 1–5 person RIA shop generates 85% of deficiencies on SEC exams and has no purpose-built affordable tool.
-
-**Solution:** AdvisorAlert connects to your Gmail or Outlook, samples 50 client communications per month, and flags language that could constitute testimonials, solicitations, or performance guarantees. It also maintains your compliance calendar (Form ADV due dates, custody rule filings, code of ethics deadlines) and lets you submit marketing content for a plain-English compliance check. The weekly digest is your CCO's to-do list — not a 200-page manual.
-
-**Target customer:** Principal / de-facto CCO at a 1–5 person RIA, $50M–$500M AUM, serving retail or HNW clients on Schwab, Fidelity, or Pershing. Not a broker-dealer, not a family office. Buyer: the principal who is also the CCO. Users: principal + any administrative staff who handle client communication.
-
-**Why now:** AI communication volume is widening the compliance review gap faster than RIA headcount grows. Hadrius's $27M July 2026 raise — the largest compliance-tech seed in recent memory — confirms VC conviction in the category. The SEC's 2026 risk alert cited inadequate communication surveillance as the top deficiency in small RIAs. No affordable tool exists for micro-RIA shops below $5K/year.
-
-**Why they buy without being sold to:** An RIA principal who received an SEC deficiency letter for "inadequate email review" last year starts a free AdvisorAlert trial, connects their inbox, and sees their first flagged communication — a client email that said "you always get me great returns" — within 5 minutes. No pitch required.
-
-**Revenue model:** $299/month (email sampling for 1 inbox, compliance calendar, 12 framework checks). $499/month (3 inboxes + marketing content review PDF upload). $799/month (unlimited + trade surveillance from Schwab/Fidelity custodian data feeds). Annual −2 months. Free compliance calendar (no email connection required) as lead generation entry point.
-
-**Unfair advantage:** Micro-RIA compliance calendar templates (Form ADV filing dates, custody rule requirements, code of ethics cycles) built specifically for the 1–5 person shop that Hadrius ignores. Distribution through Schwab Advisor Services and Fidelity Institutional partner programs where 90%+ of micro-RIAs can be reached without outbound sales.
-
-### Solo Build Plan
-1. Weeks 1–2: Free compliance calendar (ADV, custody, code of ethics deadlines) — ship as a stand-alone lead magnet with no email connection.
-2. Weeks 3–4: Gmail/Outlook OAuth; email ingestion; AI flag for testimonials, performance guarantees, solicitation language with explainability ("flagged because: 'always' + 'returns' in same sentence").
-3. Weeks 5–6: Compliance calendar integration with email alerts; marketing content review (PDF/LinkedIn post upload; plain-English flag report).
-4. Weeks 7–8: Stripe; free-calendar → paid-monitoring conversion funnel; legal review of ToS positioning ("monitoring tool, not compliance advice").
-5. Weeks 9–12: Pilot 5 micro-RIAs through Schwab advisor network referrals and IAA or NAPFA regional events.
-
-### Critic's Assessment
-**Rating:** 7/10 | **Last critique:** 2026-08-16
-**Strongest part:** Hadrius $27M July 2026 is the clearest single category-validation signal in this cookbook. The micro-RIA segment gap is explicitly documented.
-**Open question:** Hadrius starter tier under $5K/year?
-
----
-
----
-
-## #3 — MarkPack  ·  73/100  ·  IMPROVED
-First added: 2026-08-03 | Last updated: 2026-08-16 | Score delta this week: +2
-
-> Ship Article 50 evidence — chatbot disclosure, C2PA marks, and an audit folder — before the inspector asks.
-
-### Score Breakdown
-- Solo Buildability:   14/20  (C2PA middleware + disclosure snippets + evidence ZIP; not a full GRC suite)
-- Value Clarity:       16/20  (+1 — AI Office complaint form is live; “show me proof” is no longer hypothetical)
-- Market Timing:       17/20  (+1 — Art. 50 enforcement started 2 Aug; Dec 2 marking grace ~3.5 months left; OpenCorpo/PixelOffice are checklists/forges, not evidence+CI packs)
-- B2B Monetisation:    14/20  ($199–499/mo for genAI product teams shipping EU-facing content)
-- Pull Factor:         12/20  (compliance buyers; eng Twitter/GitHub for SDK)
-
-**Strengths:**
-- Post-deadline enforcement window differs from pre-deadline checklist panic (ArticleShield’s failure mode).
-- Dec 2 grace creates a concrete ~4-month build/ship window for marking on systems already in market.
-- Obligation→artifact mapping + CI fail-on-missing-marks is a solo-shaped wedge vs consulting slideware.
-
-**Risks:**
-- Platform-native C2PA (Adobe, model providers) could commoditize marking.
-- AnnexOps/ActProof-class tools may expand into evidence packs.
-- Demand may cliff after Dec 2 grace if enforcement is weak.
-
-**Verdict:** Stay on engineering evidence pack + CI — not another PDF checklist. Grace window is the sprint.
+**Verdict:** Enter now. The 6-month window before enterprise GRC platforms retrofit CRA support is the entire opportunity.
 
 ### The Pitch
-**Problem:** From 2 August 2026, EU AI Act Article 50 transparency duties apply. Chatbots must disclose AI interaction; generative systems need machine-readable marking (C2PA-class) — with a grace period to 2 December 2026 for systems already on the market before 2 August (EC FAQ / Omnibus). Mid-market product teams have Notion checklists, not an evidence folder an auditor can open: disclosure screenshots, marking pipeline config, role owners, and change logs.
+**Problem:** The EU Cyber Resilience Act (Regulation 2024/2847) entered vulnerability disclosure reporting obligations into force on September 11, 2026. Every manufacturer of products with digital elements sold in the EU — SaaS vendors, IoT firmware makers, embedded software publishers — must now report actively exploited vulnerabilities to ENISA within 24 hours (early warning) and 72 hours (detailed report). Security teams know how to patch CVEs; they do not know how to file to ENISA, how to classify severity under CRA criteria, or how to maintain the SBOM documentation that supports it. Consultants charge €5,000–15,000 per incident report. SBOM maintenance is manual and ad hoc. The regulation is live and most affected companies have zero process.
 
-**Solution:** MarkPack is the technical compliance kit: drop-in disclosure components, C2PA/content-credential marking in the generation path, and a one-click evidence pack (ZIP/PDF) mapping each Art. 50 obligation to proof. Built for eng + legal together — not consultants selling slideware.
+**Solution:** CRAReport is the CRA compliance workbench: it imports your SBOM from CycloneDX or SPDX (or runs Syft/Trivy against your Docker image), classifies incoming CVEs against CRA severity criteria, pre-fills the ENISA notification template from your SBOM and CVE data, and tracks the 24h / 72h reporting clocks. When a vulnerability is discovered, CRAReport opens a case, alerts the right owner, and generates the regulatory submission draft — legal reviews a structured document instead of starting from a blank page. Free "CRA Scope Questionnaire" (5 questions) determines if your product is in scope.
 
-**Target customer:** Eng lead + counsel at 15–150 person companies shipping EU-facing chatbots or generative content (SaaS, media, agencies). Buyer: CTO/GC. Users: eng implementing marks + compliance owning the evidence folder.
+**Target customer:** SaaS companies and cloud-hosted software vendors (15–200 employees) selling into the EU market. Buyer: CTO or Head of Security. User: security engineer + compliance officer. Initially cloud/SaaS companies where the SBOM is a Docker image manifest, not embedded firmware — the simpler starting scope.
 
-**Why now:** Obligations are live as of 2 August 2026; high-risk Annex III was deferred in parts of the Omnibus, but Art. 50 was not. The Dec 2 marking grace is a forcing function for teams who shipped before August without watermarks.
+**Why now:** CRA vulnerability reporting obligations became active September 11, 2026. No SaaS tool exists for ENISA notification workflows. Vanta and Drata are US-centric SOC 2 platforms that will take 6–12 months to retrofit EU-specific CRA reporting modules. Penalties can reach €15M or 2.5% of global annual turnover.
 
-**Why they buy without being sold to:** Counsel asks “show me Art. 50 proof” and eng has nothing reproducible — MarkPack’s evidence pack becomes the answer in one afternoon.
+**Why they buy without being sold to:** A security engineer who discovers an actively exploited CVE in a dependency Googles "how to report to ENISA under CRA" and finds no clear process. CRAReport's free Scope Questionnaire tells them they're in scope. The ENISA notification template fills itself from their CVE details. They purchase before submitting the first report.
 
-**Revenue model:** $199/mo (1 product). $349/mo (5 products + CI check). $499/mo (SSO + custom retention). Annual −2 months. 14-day trial with a sample evidence pack generated from a demo app.
+**Revenue model:** $199/month (1 product, SBOM maintenance, ENISA notifications, 24/72h clocks). $499/month (3 products + team assignment + evidence archive). $699/month (unlimited + API + CSIRT integration). Annual −2 months. 14-day trial with SBOM import from CycloneDX/SPDX.
 
-**Unfair advantage:** Obligation→artifact mapping that updates as Commission guidance evolves; GitHub Action that fails PRs missing marks; focused on mid-market eng teams, not Big Four audit packages.
+**Unfair advantage:** CRA vulnerability reporting is brand-new as of September 11, 2026. A founder who ships CRAReport's ENISA template tool in the next 4–6 weeks becomes the brand Google indexes for "CRA ENISA vulnerability report" before enterprise GRC platforms finish their roadmap reviews. First-mover SEO in a regulatory moment is a real and durable distribution moat.
 
 ### Solo Build Plan
-1. Weeks 1–3: Disclosure component library; evidence schema; sample pack generator.
-2. Weeks 4–5: C2PA/content credentials hook for image/video pipeline (one stack first).
-3. Weeks 6–7: CI Action; Slack “evidence incomplete” alert.
-4. Weeks 8–9: Stripe; EU-facing SaaS onboarding.
-5. Weeks 10–12: Pilot 6 teams via AI Act Slack/Discord + YC EU companies.
+1. Weeks 1–3: CRA Scope Questionnaire (free, 5 questions); CycloneDX/SPDX SBOM import; vulnerability intake form (CVE ID, product, affected versions); 24h/72h clock tracker; ENISA early-warning template generator.
+2. Weeks 4–5: CVE severity classifier (CRA criteria: active exploitation, broad impact, CVSS ≥7); Slack/email alerts on clock approach; report history archive.
+3. Weeks 6–7: Syft/Trivy Docker image scan integration; multi-product SBOM inventory; component ownership assignment; member-state authority directory (which authority to notify by country).
+4. Weeks 8–9: Stripe; 14-day trial; JIRA/GitHub issue linker for vulnerability tracking workflow.
+5. Weeks 10–12: Pilot 6 EU-facing software companies via OWASP EU chapters, EU-focused developer Slack communities, and HN/EU founder communities.
 
 ### Critic's Assessment
-**Rating:** 7/10 | **Last critique:** 2026-08-16
-**Strongest part:** Enforcement and the public complaint channel make evidence a real ask, not a pre-deadline panic.
-**Open question:** Will buyers pay after Dec 2, or only during the remaining grace sprint?
+**Rating:** 7/10 | **Last critique:** 2026-09-18
+**Strongest part:** Timing is unambiguous — CRA reporting obligations started 7 days ago. The first-mover SEO window is real and finite.
+**Open question:** Will scope ambiguity ("are we a manufacturer of products with digital elements?") delay purchasing until the first ENISA enforcement action? If so, the sales cycle is 6–12 months longer than the timing signal suggests.
 
 ---
 
-## #4 — RuleFlow  ·  73/100  ·  NEW
-First added: 2026-08-16 | Last updated: 2026-08-16 | Score delta this week: —
+## #3 — RuleFlow  ·  74/100  ·  IMPROVED
+First added: 2026-08-16 | Last updated: 2026-09-18 | Score delta this week: +1
 
 > New federal rules become a checklist and an evidence folder — not another unread PDF in Slack.
 
 ### Score Breakdown
 - Solo Buildability:   13/20  (FRTracker-class obligation feed + Asana/Jira tasks + evidence ZIP; legal-correctness review is the hard part)
-- Value Clarity:       16/20  (“this rule changed — here is what you must do by when” is a 15-second pitch for a CCO)
-- Market Timing:       16/20  (YC Fall 2026 RFS asked for AI-native compliance infrastructure on 23 Jul; FRTracker is a free research primitive with no mid-market workflow layer; CUBE/AscentAI remain Tier-1)
+- Value Clarity:       16/20  ("this rule changed — here is what you must do by when" is a 15-second pitch for a CCO)
+- Market Timing:       17/20  (+1 from 16: CRA reporting obligations started Sept 11, 2026 — the category of "turning new regulations into actionable obligation lists" just got a third high-profile mandate alongside DORA and EU AI Act; YC Fall 2026 RFS for AI-native compliance infra remains validated; FRTracker still a free research primitive with no mid-market workflow layer)
 - B2B Monetisation:    17/20  (community banks and fintech lenders already pay six figures in fines and consultants; $399–799/mo is cheap next to that)
 - Pull Factor:         11/20  (compliance communities share tools quietly; not LinkedIn-viral)
 
 **Strengths:**
-- FRTracker already extracts must/shall/may-not obligations deterministically — the missing product is “new rule → owner → due date → evidence,” not another AI summariser.
-- YC’s July 2026 request validates the category; incumbents sell libraries, not a 4-person compliance team’s inbox.
+- FRTracker already extracts must/shall/may-not obligations deterministically — the missing product is "new rule → owner → due date → evidence," not another AI summariser.
+- CRA Sept 11 + DORA enforcement expected 2026 + SR 26-2/OCC 2026-13 validate that regulatory obligation management is a multi-market need, not a one-regulation bet.
 - Traceable, non-black-box extraction is a selling point for auditors.
 
 **Risks:**
 - FRTracker (or a well-funded RegTech) adds the workflow layer and collapses the wedge.
-- Wrong obligation mapping creates legal liability; product must be “monitoring,” not advice.
-- Mid-market fintech buyer count is smaller than it looks.
+- Wrong obligation mapping creates legal liability; product must be sold as "monitoring," not advice.
+- Mid-market fintech buyer count is smaller than it appears.
 
-**Verdict:** Enter as the workflow layer on top of public obligation feeds. One vertical first: US fintech lenders / community banks.
+**Verdict:** Hold and strengthen. CRA/DORA/SR 26-2 convergence validates the category; US fintech vertical remains the beachhead.
 
 ### The Pitch
 **Problem:** A four-person compliance team at a community bank or fintech lender tracks Federal Register changes in a shared spreadsheet and a Slack channel of PDFs. CUBE and AscentAI sell this to Tier-1 banks. FRTracker (free) now extracts individual must/shall obligations from 989K+ documents — but it is a research tool, not a system of record. When a final rule drops, nobody owns the checklist, and the exam asks for evidence that does not exist.
@@ -199,9 +142,9 @@ First added: 2026-08-16 | Last updated: 2026-08-16 | Score delta this week: —
 
 **Target customer:** CCO / compliance analyst at a 20–200 person US fintech lender, community bank, or payments firm. Not a broker-dealer mega-firm. Buyer: CCO or General Counsel. Users: the 2–6 people who currently paste Federal Register links into Slack.
 
-**Why now:** YC’s Fall 2026 RFS (23 Jul) asked for AI-native compliance infrastructure that maps activities to rules, filings, and evidence. The open primitive (FRTracker) exists; the mid-market workflow layer does not. Enterprise RegTech still starts at six figures.
+**Why now:** YC's Fall 2026 RFS asked for AI-native compliance infrastructure. The open primitive (FRTracker) exists; the mid-market workflow layer does not. Enterprise RegTech still starts at six figures. Three concurrent regulation waves (DORA, CRA, SR 26-2) validate the category across markets simultaneously.
 
-**Why they buy without being sold to:** After a consent order or a nasty FR notice, the CCO pastes last month’s “rules we think apply” spreadsheet into RuleFlow, sees three missed effective dates, and refuses to go back to Slack-PDFs.
+**Why they buy without being sold to:** After a consent order or a nasty FR notice, the CCO pastes last month's "rules we think apply" spreadsheet into RuleFlow, sees three missed effective dates, and refuses to go back to Slack-PDFs.
 
 **Revenue model:** $399/mo (1 agency family + 10 users). $599/mo (3 families + Jira/Asana sync). $799/mo (unlimited + evidence vault + SSO). Annual −2 months. 14-day trial on a saved agency watchlist.
 
@@ -216,210 +159,259 @@ First added: 2026-08-16 | Last updated: 2026-08-16 | Score delta this week: —
 
 ### Critic's Assessment
 **Rating:** 7/10 | **Last critique:** 2026-08-16
-**Strongest part:** The primitive is free and public; the unpaid job is workflow + evidence, which is exactly what a 4-person team will pay for.
-**Open question:** Will FRTracker itself add “send to Jira” and eat the wedge?
+**Strongest part:** The primitive is free and public; the unpaid job is workflow + evidence, which is exactly what a 4-person team will pay for. CRA/DORA/SR 26-2 convergence confirms the category timing.
+**Open question:** Will FRTracker itself add "send to Jira" and eat the wedge?
 
 ---
 
-## #5 — ChurnDetect  ·  73/100  ·  DECLINED
-First added: 2026-07-31 | Last updated: 2026-08-16 | Score delta this week: −2
+## #4 — ModelReg  ·  74/100  ·  UNCHANGED
+First added: 2026-09-04 | Last updated: 2026-09-18 | Score delta this week: —
 
-> Find the customers about to leave — 90 days before they tell you — from the support tickets they are already sending.
+> Turn SR 26-2 examiner expectations into a board-ready AI governance evidence folder — before the exam letter arrives.
 
 ### Score Breakdown
-- Solo Buildability:   15/20  (Zendesk/Intercom API + AI ticket classification + Slack alerts = 3 months feasible for a focused MVP)
-- Value Clarity:       17/20  ("retrospective demo on your last churned account" is self-closing; no pitch required after that demo)
-- Market Timing:       13/20  (−1 — Zendesk Intelligent Triage rolled to Professional plans 1 Jul 2026; still topic/sentiment per ticket, not account-level churn)
-- B2B Monetisation:    15/20  ($199–599/month; CS budget exists; protecting $30K ARR easily justifies $349/month)
-- Pull Factor:         13/20  (−1 — CS AI category noise; retrospective demo still the wedge)
+- Solo Buildability:   14/20  (policy templates + model inventory + evidence log + board report; no ML engineering required; legal validation is the constraint)
+- Value Clarity:       16/20  ("exam letter trigger" — examiners are now asking about AI governance before formal guidance; AegisAI Evidence Tracker still "coming soon")
+- Market Timing:       17/20  (OCC announced forthcoming AI-specific RFI; AegisAI Evidence Tracker still email waitlist as of Sept 18; SR 26-2 is principles-based — banks must tell their own compliance story)
+- B2B Monetisation:    15/20  ($299–599/month vs $5K–20K compliance consultant; community bank budget is real)
+- Pull Factor:         12/20  (compliance officer peer networks at ABA/IBAT events; exam-letter FOMO travels fast)
 
 **Strengths:**
-- Retrospective demo ("see the 8 tickets before your last churned account") is a self-closing sales mechanism that requires no pitch.
-- 60% of B2B software buyers regretted their purchase in 18 months (Helply 2026); churn risk is surfaced in tickets months before renewal.
-- Gap between enterprise (Gainsight $30K+, ChurnZero $20K+) and nothing for 10–150 seat SaaS is clear and large.
+- AegisAI Evidence Tracker is still "coming soon" — email waitlist only. Free assessment + $29/$49/$99 template kits. No operational SaaS product has launched.
+- OCC confirmed it will issue an AI-specific RFI "in the near future" — examiners ask AI governance questions before formal guidance lands, per documented examiner findings.
+- SR 26-2 is principles-based: "the bank must tell its own compliance story" — a software tool that organizes this story is the exact unpaid job.
 
 **Risks:**
-- Zendesk's native "Intelligent Triage" already classifies intent and sentiment; if it expands to churn prediction, the differentiation narrows.
-- PII/SOC2 considerations for storing and scanning customer support data require explicit consent flows.
-- Planhat ($1K+/month, mid-market) could push further downmarket.
+- AegisAI Evidence Tracker launches within 3 months (still the main kill signal).
+- OCC issues prescriptive AI examination procedures, reducing the "tell your story" differentiation.
+- Community banks trust their core vendor (Jack Henry, FIS, Fiserv) for compliance tools — distribution through core vendors is hard.
 
-**Verdict:** Hold retrospective-demo wedge. Open question from R5 answered: triage is not account health — yet.
+**Verdict:** Hold. AegisAI Evidence Tracker launch remains the primary watch signal.
 
 ### The Pitch
-**Problem:** B2B SaaS companies discover customer churn risk almost exclusively at renewal time, when the decision is already made. 60% of B2B buyers regretted their purchase in the past 18 months. The warning signals — frustration in tickets, repeated unresolved issues, competitor mentions, escalating response times — are buried in the support inbox. CS teams classify tickets by "resolved / open," not by "churn risk." A $50K ARR customer silently decides to cancel three months before renewal; the first official indication is a "not renewing" email.
+**Problem:** SR 26-2 / OCC Bulletin 2026-13 replaced SR 11-7 in April 2026, requiring community banks and fintechs to govern AI/ML models, vendor LLMs, and third-party AI products. The most common 2026 examiner finding: "the bank's existing model risk policy does not reference AI/ML or foundation models at all." Examiners are now asking about AI governance during routine CAMELS exams before formal AI-specific examination procedures exist. AegisAI Compliance sells a free browser assessment and $29–99 PDF template kits — but its operational Evidence Tracker is still an email waitlist. The job of "tracking which AI systems are approved, who owns them, what validation was done, and where the board-level evidence lives" has no SaaS home for a 4-person compliance team at a community bank.
 
-**Solution:** ChurnDetect connects to your Zendesk or Intercom, reads the past 6 months of support tickets using AI, and classifies each conversation by churn risk language, unresolved issue patterns, feature gaps, and competitive mentions. It generates a weekly list of "accounts at risk" with the specific threads that triggered the flag. CS teams get a prioritised outreach list before accounts are lost — not after.
+**Solution:** ModelReg maintains the AI system inventory (vendor LLMs, internal models, embedded AI in core banking), maps each to SR 26-2 obligations (validation, monitoring, vendor due diligence), tracks evidence ownership and due dates, and exports a board-ready governance summary when the exam letter arrives.
 
-**Target customer:** Customer success manager / VP CS at 10–150 person B2B SaaS company with 100+ customers. Buyer: VP CS or CRO. Users: CS team + account managers. Uses Zendesk or Intercom. Does not have Gainsight or ChurnZero. Company runs $1M–15M ARR where individual account loss is felt immediately.
+**Target customer:** Chief Risk Officer / Compliance Officer at a 50–500 person US community bank, credit union, or regulated fintech. Buyer: CRO or CEO. Users: compliance analyst + model risk officer. Annual exam creates a recurring urgency cycle.
 
-**Why now:** LLMs in 2026 classify "this is taking way too long to resolve" as churn risk where keyword filters miss it. The cost of this classification is now under $0.001 per ticket. Enterprise CS platforms are priced at $20–30K/year, leaving 10–150 person SaaS with no dedicated churn-detection layer.
+**Why now:** SR 26-2 is live. OCC announced an AI-specific RFI. AegisAI Evidence Tracker is still waitlist-only. The community bank compliance officer who took the free AegisAI assessment has a score and a gap list but no operational tool to close those gaps.
 
-**Why they buy without being sold to:** A CS manager who lost a $30K account to silent churn runs the free ChurnDetect retrospective on that account's last 8 tickets, sees the risk flags she missed 90 days ago, and purchases immediately. The demo is a historical audit — not a hypothetical.
+**Why they buy without being sold to:** A compliance officer who received an AegisAI gap report with 12 open items pastes those items into ModelReg's free import, assigns owners, and sets due dates. The first exam prep report generates itself. They purchase before the 14-day trial expires.
 
-**Revenue model:** $199/month (up to 500 accounts + Zendesk). $349/month (unlimited accounts + Intercom/Zendesk + Slack alerts). $599/month (unlimited + API + custom risk taxonomy + competitor-mention tracking). 14-day free trial. Annual −2 months.
+**Revenue model:** $299/month (1 institution, AI inventory, obligation tracking, board-ready report). $499/month (3 institutions + vendor due diligence workflow). $599/month (unlimited + API + external auditor view). Annual −2 months.
 
-**Unfair advantage:** Historical retrospective demo that turns the free trial into a self-closing pitch. Vertical risk taxonomies (SaaS-specific, agency-specific, subscription product) that generic sentiment tools do not have.
+**Unfair advantage:** AegisAI gap report → ModelReg import is the conversion funnel. Community bank exam cycles create a recurring urgency event. AegisAI Evidence Tracker launch is the kill signal to watch but has been "coming soon" for 4+ months.
 
 ### Solo Build Plan
-1. Weeks 1–3: Zendesk API connector; 6-month historical ticket ingestion; AI risk classification per thread (churn language, sentiment, competitor mentions).
-2. Weeks 4–5: Account-level aggregation; weekly digest email + Slack; risk score per account with evidence thread links.
-3. Weeks 6–7: Intercom connector; custom risk terms; "at risk" list with flagged quotes.
-4. Weeks 8–9: Stripe; retrospective demo generator (5 historical accounts, auto-classified); explicit data consent flow.
-5. Weeks 10–12: Pilot 8 SaaS companies through CS leader Slack communities and Product Hunt launch.
+1. Weeks 1–3: AI system inventory (name, type, vendor, use case, risk tier); SR 26-2 obligation library; owner + due date + evidence slot per obligation.
+2. Weeks 4–5: AegisAI gap import (CSV from assessment); board report generator (SR 26-2 maturity summary).
+3. Weeks 6–7: Vendor due diligence checklist per third-party AI product; exam prep export ZIP.
+4. Weeks 8–9: Stripe; AegisAI gap-import onboarding; 14-day trial.
+5. Weeks 10–12: Pilot 5 community banks via ABA community banking track and IBAT compliance events.
 
 ### Critic's Assessment
-**Rating:** 7/10 | **Last critique:** 2026-08-16
-**Strongest part:** The retrospective demo on a recently churned account is a self-closing conversion mechanism unlike anything in the cookbook.
-**Open question:** Will Zendesk turn topic+sentiment into an account-health SKU in H2 2026?
+**Rating:** 8/10 | **Last critique:** 2026-09-04
+**Strongest part:** AegisAI Evidence Tracker is the natural predecessor tool — giving ModelReg a warm-lead pipeline of institutions with a completed gap assessment and no operational tool to close the gaps.
+**Open question:** AegisAI Evidence Tracker launch within 3 months?
 
 ---
 
----
+## #5 — DORAIncident  ·  73/100  ·  NEW
+First added: 2026-09-18 | Last updated: 2026-09-18 | Score delta this week: +73
 
-## #6 — TokenBill  ·  72/100  ·  NEW
-First added: 2026-08-16 | Last updated: 2026-08-16 | Score delta this week: —
-
-> One invoice-level forecast for OpenAI, Claude, and Cursor — before token shock hits the P&L.
+> Never miss a DORA incident reporting clock — classified, structured, submitted in hours.
 
 ### Score Breakdown
-- Solo Buildability:   16/20  (email/PDF invoice ingest + vendor price tables + cap alerts; no SDK in the customer’s app)
-- Value Clarity:       16/20  (Techaisle 2026 “token shock” is a CFO sentence; “what will AI cost next month?” is obvious)
-- Market Timing:       13/20  (pain is #1 SMB IT challenge in 2026; Helicone/Langfuse/vendor consoles exist but are engineer-facing and per-provider)
-- B2B Monetisation:    15/20  ($149–399/mo vs surprise $8K OpenAI bills; finance will pay for forecastability)
-- Pull Factor:         12/20  (CFO Slack/communities share war stories; quieter than eng Twitter)
+- Solo Buildability:   14/20  (ICT incident intake + DORA classification checklist + 4h/72h/30-day clocks + authority-specific report templates; authority template library requires ongoing maintenance)
+- Value Clarity:       16/20  ("your incident report is due in 68 hours" is self-explanatory to a compliance officer; "Incident Dry Run" lead magnet is immediately useful)
+- Market Timing:       17/20  (DORA in force Jan 2025; first enforcement for incident reporting failures and Register deficiencies expected 2026 supervisory cycle; SREP assessments including DORA findings are underway; most EU fintech shops have no purpose-built incident tracker)
+- B2B Monetisation:    15/20  ($499–1,199/month for regulated EU financial entities; compliance budget is real)
+- Pull Factor:         11/20  (compliance officer communities; LinkedIn-active EU RegTech crowd; word of mouth after an incident-first demo)
 
 **Strengths:**
-- Techaisle 2026 names unpredictable AI consumption as the budget-constraint evolution of cloud-cost panic.
-- Wedge is finance, not observability: invoices and card statements, not traces.
-- Helicone ($79, proxy) and Langfuse ($29, SDK) do not serve a non-engineer ops/finance buyer.
+- DORA enforcement signals in 2026 are specific: "incident reporting failures" and "Register of Information deficiencies" are the named targets. These are not hypothetical.
+- Vanta/Drata are US-centric SOC 2 platforms that retrofitted DORA support as an add-on — authority-specific report templates (AFM, BaFin, ACPR, PRA, DNB) require EU regulatory expertise they don't have.
+- "Incident Dry Run" feature (simulate a scenario against DORA criteria before a real event) is both the best product demo and the most useful free tool in the category.
 
 **Risks:**
-- OpenAI / Anthropic / Cursor admin consoles get “CFO forecast” tabs.
-- Ramp, Brex, or Mercury add AI-vendor spend categories.
-- Invoice formats are messy; accuracy below ~90% kills trust.
+- Low incident frequency (3–4 major incidents/year for a payment fintech) may undercut $499/month subscription value — companies pay for insurance they rarely use.
+- 27 EU member states = 27 potential competent authority formats; maintaining templates for all is a significant ongoing content burden.
+- Riskonnect, AuditBoard, or MetricStream could ship a "DORA Module" in Q4 2026 with their existing enterprise relationships.
 
-**Verdict:** Enter as the invoice-level AI spend forecast for 20–100 person companies. Do not build another Langfuse.
+**Verdict:** Enter now, start with payment institutions and crypto-asset service providers. Narrow to the 5 most active competent authorities: AFM, BaFin, ACPR, FCA, DNB.
 
 ### The Pitch
-**Problem:** SMBs in 2026 run OpenAI, Anthropic, Cursor, and a handful of other AI tools on usage pricing. Techaisle’s 2026 SMB IT survey put budget unpredictability — “token shock” — at the top of the challenge list, ahead of classic cloud optimisation. The engineer can open Helicone. The ops lead and the bookkeeper get PDF invoices they cannot forecast, cannot allocate to teams, and cannot cap.
+**Problem:** Under DORA (EU Regulation 2022/2554, in force since January 17, 2025), EU financial entities must classify significant ICT incidents, send an early warning to their competent authority within 4 hours of classification, file an intermediate report within 72 hours, and submit a final report within 1 month. Supervisors have explicitly signalled that 2026 enforcement will target incident reporting failures and Register of Information deficiencies. Competent authorities are finding: late initial notifications, misclassified incidents (under-reporting is a risk), and final reports lacking adequate root cause analysis. Most payment institutions and crypto-asset service providers manage this with SharePoint folders, email chains to the compliance officer, and manual Excel trackers — tools built for annual audits, not live incident clocks on a Friday evening.
 
-**Solution:** TokenBill ingests invoices and billing emails from the AI tools you already pay, maps them to a single forecast, and alerts Slack when a vendor is running hot vs last month. No SDK. No proxy in the product. Caps are “tell finance,” not “return 402 to the model.”
+**Solution:** DORAIncident is the DORA incident reporting workbench: it classifies ICT incidents against DORA criteria (availability, authenticity, integrity, confidentiality), starts the 4h/72h/1-month clocks automatically, pre-fills the report template for the relevant competent authority (AFM, BaFin, ACPR, FCA, DNB), and routes the draft for internal approval via Slack/email. The final submission is structured, on time, and archived for SREP inspection. "Incident Dry Run" lets teams simulate a scenario against DORA criteria before a real event — the best demo is also the best preparation.
 
-**Target customer:** Ops lead / controller / founder at a 20–100 person B2B company spending $1K–$20K/month across 3+ AI vendors. Buyer: founder or finance. User: the person who currently forwards OpenAI invoices into a sheet.
+**Target customer:** EU payment institutions, e-money institutions, and crypto-asset service providers (20–200 employees). Buyer: Chief Risk Officer / Compliance Director. User: IT risk manager + compliance analyst handling the overnight incident triage. DORA-regulated, tech-native, faster procurement than banks.
 
-**Why now:** Usage-based AI billing went from experiment to line item in 2026. Observability tools solved this for engineers. Finance still has PDFs.
+**Why now:** DORA has been in force since January 2025. Supervisors explicitly announced enforcement expectations for 2026. First SREP assessments including DORA findings are underway. The first enforcement actions for reporting failures are expected before year-end. Most fintech-sized regulated entities have no purpose-built incident management tool.
 
-**Why they buy without being sold to:** After one $4,000 Cursor+OpenAI month that nobody budgeted, the controller forwards last quarter’s invoices into TokenBill, sees the run-rate, and sets a Slack alert the same afternoon.
+**Why they buy without being sold to:** After a payment platform outage lasting 3.5 hours, the risk manager has 30 minutes to decide whether to file an early warning with the FCA. They paste the incident timeline into DORAIncident, receive a classification (major: yes), see the clock at 3h 12m remaining, and click "generate draft." The draft arrives in their inbox in 8 minutes. They purchase before the next incident.
 
-**Revenue model:** $149/mo (3 vendors, email forward). $249/mo (10 vendors + team allocation). $399/mo (SSO + CSV to QBO). Annual −2 months. 14-day trial.
+**Revenue model:** $499/month (1 entity, unlimited incidents, 5 authority templates, evidence archive). $799/month (3 entities + Register of Information module). $1,199/month (unlimited + API + SREP evidence pack + expert template review). Annual −2 months. 14-day trial with Incident Dry Run feature (unlimited, no account required).
 
-**Unfair advantage:** Vendor invoice parsers + finance-shaped alerts. Distribution via bookkeeper / fractional-CFO communities, not AI engineer Twitter.
+**Unfair advantage:** Authority-specific report templates (AFM, BaFin, ACPR, FCA, DNB) maintained by someone who reads the actual guidance — not a US-centric GRC platform retrofitting DORA as a checkbox module. The "Incident Dry Run" as a free tool creates trial demand from exactly the companies that will become paying customers after the first real incident.
 
 ### Solo Build Plan
-1. Weeks 1–3: Email-forward ingest for OpenAI, Anthropic, Cursor PDFs; vendor normaliser; monthly total view.
-2. Weeks 4–5: Run-rate forecast; vs last month; Slack threshold alerts.
-3. Weeks 6–7: Team/cost-centre tags; CSV export.
-4. Weeks 8–9: Stripe; sample-invoice onboarding.
-5. Weeks 10–12: Pilot 8 companies via fractional-CFO Slack and indie-hacker ops channels.
+1. Weeks 1–3: ICT incident intake form (DORA classification checklist: availability, integrity, confidentiality, authenticity affected services); 4h/72h/30-day clock automation; authority template library for AFM, BaFin, ACPR, FCA, DNB.
+2. Weeks 4–5: Incident Dry Run (free, no login) — simulate scenario, get classification + clock preview; Slack/email approval routing for internal sign-off.
+3. Weeks 6–7: Evidence upload per incident; SREP evidence pack export; intermediate/final report pre-fill from initial classification data.
+4. Weeks 8–9: Stripe; 14-day trial with dry-run conversion flow; Register of Information basic template module.
+5. Weeks 10–12: Pilot 5 EU payment institution / CASP compliance officers via EU RegTech conferences, DORA compliance forums, and FinTech EU communities.
 
 ### Critic's Assessment
-**Rating:** 7/10 | **Last critique:** 2026-08-16
-**Strongest part:** Buyer is finance, which Helicone/Langfuse ignore; the pain is named in a 2026 analyst list.
-**Open question:** Will Ramp/Brex or the model vendors ship a good-enough spend forecast first?
+**Rating:** 7/10 | **Last critique:** 2026-09-18
+**Strongest part:** Incident Dry Run as a free tool creates the most realistic trial mechanism — users experience the product during preparation for a real incident, the exact moment they feel the pain most acutely.
+**Open question:** Will low incident frequency (3–4 major incidents/year for a typical payment fintech) prevent companies from paying $499/month for a "rarely used" workflow tool — or does the regulatory penalty for a missed clock justify the subscription?
 
 ---
 
-## #7 — BriefDesk  ·  72/100  ·  DECLINED
-First added: 2026-07-31 | Last updated: 2026-08-16 | Score delta this week: −4
+## #6 — ClaimSnap  ·  72/100  ·  DECLINED
+First added: 2026-09-11 | Last updated: 2026-09-18 | Score delta this week: −2
 
-> Your Monday morning leadership brief writes itself — pulled from your real CRM, PM, and billing data, not from memory.
+> AI damage photo classification → Xactimate-format supplement brief — for public adjusters, not carrier platforms.
 
 ### Score Breakdown
-- Solo Buildability:   17/20  (3 OAuth integrations + AI synthesis < $0.02/brief; clearly shippable solo in 3 months)
-- Value Clarity:       17/20  (CSW Solutions July 2026 documents exact pain: "4-5 hours every Friday"; self-evident ROI)
-- Market Timing:       12/20  (−2 — briefhq.ai now ships HubSpot+Stripe+Linear plus scheduled Weekly Brief agents; Data Parrot sends HubSpot weekly sales briefs; HubSpot Breeze Studio builds weekly CRM recaps)
-- B2B Monetisation:    15/20  ($149–399/month; professional services teams have clear budget for time-back tools)
-- Pull Factor:         12/20  (−1 — “weekly brief” is now a crowded phrase; rename is no longer optional)
+- Solo Buildability:   15/20  (GPT-4V image classification + Xactimate line-item mapping + PDF brief; no Xactimate API; all output side)
+- Value Clarity:       16/20  (retrospective demo on real loss photos is self-closing; public adjuster pain is acute)
+- Market Timing:       14/20  (−2: XactAI now ships AI photo LABELING inside Xactimate — not photo-to-estimate generation, but it is a creeping threat; public adjuster segment remains unserved at $149/month)
+- B2B Monetisation:    15/20  ($149/month for public adjusters; seasonal demand spikes justify annual plans)
+- Pull Factor:         12/20  (NAPIA/TAPIA distribution; adjuster peer networks share tools that close more claims)
 
 **Strengths:**
-- CSW Solutions (July 2026) documents the exact ritual: CRM tab → PM tab → billing tab → paste into Notion doc on Friday afternoon. Product builds itself around a lived pain.
-- Multi-stack angle (HubSpot+ClickUp+QBO) is what HubSpot Breeze, Monday AI, and Notion AI individually cannot do — each only sees one platform's data.
-- AI synthesis cost is < $0.02 per brief; margin structure is exceptional.
+- XactAI (Verisk) adds AI photo descriptions and labels inside Xactimate — but this is DOCUMENTATION assistance (labeling existing photos), not photo-to-estimate generation. ClaimSnap's output (AI classifies damage type → generates Xactimate-format line items for a supplement claim) is still unaddressed by XactAI.
+- Public adjuster segment (~50,000 licensed US public adjusters) has no purpose-built tool at $149/month confirmed. Verisk/Xactimate targets carriers, not independent/public adjusters.
+- Seasonal demand spikes (hurricane season) create predictable high-conversion windows.
 
 **Risks:**
-- HubSpot could ship a "weekly AI narrative summary" that ingests its 1,400+ connected integrations natively — watch Q3/Q4 2026 announcements.
-- 3 OAuth integrations (HubSpot, ClickUp, QuickBooks) = 3 weeks of auth and rate-limit work before any AI prompt engineering.
-- "Narrative brief" vs dashboard is a positioning risk — some ops leads have accepted dashboards and don't feel the brief pain.
+- XactAI "AI Estimator" (plain-language job description → structured Xactimate estimate) is a direction Verisk is clearly moving toward — if they add photo-based line item generation, ClaimSnap is directly threatened.
+- GPT-4V damage classification accuracy in edge cases (water damage vs. mold, structural vs. cosmetic) may require human-in-the-loop validation.
+- Public adjuster firms vary wildly in tech adoption; many are one-person shops with no tooling budget.
 
-**Verdict:** Keep only if positioned as HubSpot+ClickUp+QBO ops brief — and rename before launch. One more run.
+**Verdict:** Still viable but XactAI's trajectory narrows the window. Accelerate or reconsider by the next quarterly run.
 
 ### The Pitch
-**Problem:** Professional services firms, agencies, and B2B SaaS companies spend 4–5 hours every Friday manually pulling CRM deal updates, project status from their PM tool, and revenue figures from QuickBooks into a leadership brief. One person — usually the ops manager, EA, or founder — reads from three browser tabs and types into a Notion document. The brief costs $200–500 in staff time to produce, arrives late, and is stale by Monday morning. CSW Solutions documented this workflow in July 2026: "someone would export from system A, copy into the report, go to system B, copy into the report — then hope the math is right."
+**Problem:** Public insurance adjusters and independent adjusters preparing property damage supplement claims spend hours manually reviewing field photos, classifying damage, and translating observations into Xactimate line items. Xactimate (Verisk) has added XactAI photo labeling — but this generates text descriptions of photos for documentation, not damage classification that maps to estimate line items. The ~50,000 licensed US public adjusters and independent adjusters have no tool at $149/month that reads their field photos and produces a Xactimate-format supplement brief. Carrier platforms (CoreLogic Symbility, Hover) serve insurance companies, not the adjuster on the roof.
 
-**Solution:** BriefDesk connects to your HubSpot (or Pipedrive), ClickUp (or Asana/Linear), and QuickBooks (or Xero/Stripe) via API and runs automatically every Friday at 4pm. It pulls key metrics — pipeline movement, project status by owner, revenue vs. target — and synthesises them into a readable narrative brief: what closed this week, what is at risk, what needs leadership attention. The brief arrives in Slack or email before 5pm. Reviewers annotate before it goes to leadership; the AI does the research, the human adds context.
+**Solution:** ClaimSnap accepts field damage photos via mobile upload, uses vision AI (GPT-4V / Claude Vision) to classify damage type by room and component, maps classifications to the most common Xactimate line items, and generates a formatted supplement brief PDF the adjuster can use as the basis for their claim. It does not write the final Xactimate estimate — it structures the first draft so the adjuster spends 30 minutes instead of 3 hours.
 
-**Target customer:** Operations lead / EA / founder at a 10–100 person professional services firm, agency, or B2B SaaS company using HubSpot or Pipedrive + ClickUp or Asana + QuickBooks or Xero. Buyer: founder/COO. User: ops lead or EA who currently builds the brief manually.
+**Target customer:** Licensed public adjuster or independent adjuster at a 1–20 person firm handling residential and light commercial property claims. Buyer = user. Revenue driver: more claims closed per month, higher supplement success rate.
 
-**Why now:** AI synthesis costs less than $0.02 per brief. HubSpot, ClickUp, and QuickBooks all publish REST APIs that support weekly automated pulls without screen-scraping. BigIdeasDB 2026 validates manual reporting as the #1 business pain at 33.3% validation rate across 148K+ complaints. CSW Solutions documented in July 2026 that SMBs are actively paying in staff hours for exactly this workflow.
+**Why now:** XactAI's trajectory confirms Verisk is moving toward AI-assisted estimation, but the current product assists carriers and contractors who already know what to document. The public adjuster on-site at a storm-damaged property has field photos and no structured workflow — a window that remains open in 2026.
 
-**Why they buy without being sold to:** An ops manager who spent Friday afternoon copy-pasting into a leadership report gets a BriefDesk free trial, connects their HubSpot stack, and receives the same brief automatically at 5pm. They do not buy BriefDesk — they just stop cancelling it after the trial.
+**Why they buy without being sold to:** A public adjuster who uploaded last month's hurricane photos, ran ClaimSnap's free trial on a closed claim, and saw the AI-classified line items match 87% of what they submitted manually — that adjuster purchases and tells their NAPIA chapter.
 
-**Revenue model:** $149/month (1 stack: 1 CRM + 1 PM + 1 billing source; 1 brief/week). $249/month (2 stacks; for agencies managing internal + client reporting). $399/month (custom templates + Slack delivery + API access). Annual discount: 2 months free. 14-day trial with 2 live briefs generated from real data.
+**Revenue model:** $149/month (1 user, 20 claims/month). $249/month (3 users + firm-wide claim history). $399/month (10 users + API + custom line-item library). Annual −2 months. Free retrospective demo on 1 closed claim (no account required).
 
-**Unfair advantage:** First-mover in "narrative brief vs dashboard" for multi-stack companies. Vertical templates for agencies, SaaS, and professional services that any platform's native AI cannot match across stacks. Distribution via HubSpot Partner ecosystem and ClickUp Integrations Marketplace.
+**Unfair advantage:** The retrospective demo (run AI on your last closed claim, see how many supplement line items you missed) is the strongest possible free trial — users experience an aha moment with their own real loss data before purchasing.
 
 ### Solo Build Plan
-1. Weeks 1–2: HubSpot + ClickUp + QuickBooks OAuth; scheduled weekly metric pull; error handling and rate limits.
-2. Weeks 3–4: AI narrative synthesis (GPT-4o or Claude); Slack + email delivery; brief template builder.
-3. Weeks 5–6: Review/annotate workflow before distribution; stale-data warnings; week-over-week comparison.
-4. Weeks 7–8: Stripe; 14-day trial with 2 live briefs; onboarding wizard with vertical template selection.
-5. Weeks 9–12: Pilot 8 agencies and PS firms through HubSpot Partner community + ClickUp Marketplace.
+1. Weeks 1–3: Mobile photo upload; GPT-4V damage classification by room (roof, interior, structural, appliances); Xactimate line-item mapping library (top 150 residential items).
+2. Weeks 4–5: Supplement brief PDF generator; room-by-room breakdown; confidence score per item.
+3. Weeks 6–7: Multi-claim history; retrospective demo flow (free, no login, 1 closed claim).
+4. Weeks 8–9: Stripe; NAPIA/TAPIA outreach; adjuster referral program.
+5. Weeks 10–12: Pilot 8 public adjusters via NAPIA/TAPIA chapters and storm-season outreach.
 
 ### Critic's Assessment
-**Rating:** 6/10 | **Last critique:** 2026-08-16
-**Strongest part:** The CSW Friday ritual is still real; the empty category is not.
-**Open question:** Is there any multi-stack (CRM+PM+billing) narrative brief that Brief.ai/Data Parrot still cannot do?
+**Rating:** 7/10 | **Last critique:** 2026-09-11
+**Strongest part:** Retrospective demo (run AI on your last closed claim) is a self-closing mechanism. XactAI confirmed public adjuster gap — its current feature is labeling within their app, not adjuster-facing generation.
+**Open question:** Is Verisk building toward a public-adjuster-facing photo-to-estimate product in the next 12 months? Monitor XactAI roadmap announcements at Verisk Xactimate user conferences.
 
 ---
 
+## #7 — HOAEnforce  ·  72/100  ·  DECLINED
+First added: 2026-09-11 | Last updated: 2026-09-18 | Score delta this week: −1
+
+> AI photo + state-specific notice — from property walk to violation letter in 4 minutes.
+
+### Score Breakdown
+- Solo Buildability:   15/20  (mobile camera + GPT-4V violation classification + state notice template library; no full AMS required; HIPAA-equivalent not applicable)
+- Value Clarity:       16/20  (property walk photo → violation notice is a workflow the manager feels every day; 4-minute demo is obvious)
+- Market Timing:       14/20  (−1: CINC's Cephai+ now states it "auto-analyzes violations & drafts communications" — not confirmed as photo-based but creeping; Vantaca's HOAi does AI photo analysis for ARC review, not violation enforcement; 370,000 HOAs in US still underserved)
+- B2B Monetisation:    15/20  ($199–499/month for management companies; per-community pricing possible)
+- Pull Factor:         12/20  (CAI chapter distribution; property managers share tools that reduce notice-drafting time)
+
+**Strengths:**
+- Vantaca HOAi does AI photo analysis for Architectural Review Committee (ARC) requests — not routine violation detection from property walks. The specific workflow (manager walks property → takes photo → AI classifies violation → generates state-specific notice) is still unaddressed.
+- CINC Cephai+ "auto-analyzes violations" is a text-and-data workflow automation, not confirmed AI photo detection from field photos.
+- State legislation continues tightening: FL HB 919, CA AB 3182, TX HB 614 all increase required disclosures per notice — making state-specific templates more valuable over time.
+
+**Risks:**
+- CINC Cephai+ "auto-analyzes violations" is ambiguous — if this includes photo processing from the mobile app, the wedge narrows significantly. Watch for CINC product announcements at CAI conferences.
+- Vantaca adding violation-detection to their HOAi agents (currently ARC-focused) is a clear product direction.
+- Property management software is sticky — getting management companies to add another tool to the manager's phone requires a clear workflow wedge.
+
+**Verdict:** Hold but watch CINC Cephai+ closely — one product announcement could collapse the differentiation.
+
+### The Pitch
+**Problem:** HOA property managers at management companies walk communities, photograph violations (unauthorized modifications, landscaping violations, parking infractions), return to the office, and manually draft violation notices using state-specific disclosure requirements. Florida HB 919, California AB 3182, and Texas HB 614 have all increased the required disclosures that must appear in violation notices. CINC, Vantaca, and Enumerate are full Association Management Systems with enterprise pricing — none has an AI photo-to-notice workflow for the field inspection that happens 40 times a week. Vantaca HOAi does AI photo analysis for ARC requests submitted by homeowners, not for violation detection by managers in the field.
+
+**Solution:** HOAEnforce is the AI violation workbench: the manager opens the mobile app, photographs the violation, HOAEnforce classifies it (unauthorized structure, landscaping, vehicle), maps it to the applicable CCR rule for that community, and generates a state-compliant violation notice PDF ready to send. The manager reviews and sends in 4 minutes instead of returning to the office to draft.
+
+**Target customer:** Property managers at 5–50 HOA management companies managing 20+ communities per manager. Buyer: management company owner / operations director. User: on-site property manager. Management companies, not self-managed HOA boards (they lack the workflow volume).
+
+**Why now:** State legislation tightening (FL, CA, TX) makes each notice more legally complex, increasing the value of automated state-specific templates. Full AMS platforms (CINC, Vantaca) are adding AI incrementally — the field-inspection workflow is the last uncovered gap.
+
+**Why they buy without being sold to:** A property manager who spent 45 minutes drafting violation notices after a morning walk installs HOAEnforce, photographs a parking violation, and sees the Florida-compliant draft notice ready to send in 4 minutes. They demo it to their operations director at the next team meeting.
+
+**Revenue model:** $199/month (1 management company, unlimited communities). $349/month (3 managers + branded notices). $499/month (unlimited managers + API + AMS integration hooks). Annual −2 months. 14-day trial with 10 sample violations processed.
+
+**Unfair advantage:** State-specific violation notice template library (FL, CA, TX, AZ, NV as initial states) updated as state legislation evolves — the legal compliance layer that no photo-processing OSS tool provides. Distribution through CAI chapter meetings where the same property managers gather monthly.
+
+### Solo Build Plan
+1. Weeks 1–3: Mobile camera interface; GPT-4V violation classification (unauthorized structure, landscaping, vehicle/parking, modification, trash/debris); CCR rule mapping per community.
+2. Weeks 4–5: State-compliant notice template library (FL, CA, TX first); violation notice PDF generator with required disclosures.
+3. Weeks 6–7: Violation history per community/unit; management company dashboard; bulk-notice workflow.
+4. Weeks 8–9: Stripe; 10-violation free trial; CAI chapter outreach.
+5. Weeks 10–12: Pilot 6 management companies via CAI chapter presentation and property management Facebook groups.
+
+### Critic's Assessment
+**Rating:** 7/10 | **Last critique:** 2026-09-11
+**Strongest part:** State-specific notice templates updated by legislation are a compliance moat that photo-processing tools and generic AI assistants cannot replicate without domain expertise.
+**Open question:** Will CINC Cephai+ add photo-based violation detection from field inspections at its next product release cycle?
+
 ---
 
-## #8 — AuthTrack  ·  70/100  ·  NEW
-First added: 2026-08-16 | Last updated: 2026-08-16 | Score delta this week: —
+## #8 — AuthTrack  ·  71/100  ·  IMPROVED
+First added: 2026-08-16 | Last updated: 2026-09-18 | Score delta this week: +1
 
 > See which prior auths are inside the 7-day / 72-hour clock — and which denials still have no specific reason.
 
 ### Score Breakdown
 - Solo Buildability:   14/20  (CSV/fax log + calendar clocks + denial-reason fields; no EHR writeback in v1; HIPAA still applies)
-- Value Clarity:       16/20  (“this PA blows the CMS clock on Thursday” is obvious to a biller)
-- Market Timing:       14/20  (CMS-0057-F clocks and specific-denial rules live since 1 Jan 2026; FHIR PA APIs due 1 Jan 2027; Linear Health automates Athena specialty groups, not 2–10 provider fax shops)
-- B2B Monetisation:    14/20  ($149–299/mo for a billing coordinator’s time; one avoided write-off pays for a year)
+- Value Clarity:       16/20  ("this PA blows the CMS clock on Thursday" is obvious to a biller)
+- Market Timing:       15/20  (+1 from 14: CMS-0062-P proposed rule extends PA requirements to drugs — comment period closed June 15, 2026; if finalized, AuthTrack's addressable market expands significantly; clocks still live for non-drug PAs since Jan 2026)
+- B2B Monetisation:    14/20  ($149–299/mo for a billing coordinator's time; one avoided write-off pays for a year)
 - Pull Factor:         12/20  (biller Facebook groups; not public-viral)
 
 **Strengths:**
-- Operational CMS clocks are already binding; 2027 MIPS “at least one electronic PA” creates a documentation ramp.
-- Linear Health, Waystar, CoverMyMeds, Availity serve mid-market / specialty / pharmacy — the 2–10 provider Excel tracker is still the workflow.
-- Spreadsheet-first avoids the 4-week EHR integration that kills solo scope.
+- CMS-0062-P (proposed rule extending CMS-0057-F PA requirements to drugs) had comment period close June 15, 2026 — if finalized, AuthTrack's market expands to include drug PA tracking, a dramatically larger workflow volume.
+- CMS-0057-F clocks already binding since Jan 2026: 7-day standard, 72-hour expedited, specific denial reasons required.
+- Small practice fax-shop market (2–10 providers, Excel PA tracker) still has no purpose-built clock tool.
 
 **Risks:**
 - HIPAA + PHI handling from day one.
 - Linear Health or clearinghouses ship a cheap tracker SKU.
-- Tiny practices may not pay $149 if they believe “the payer has to comply, not us.”
+- Drug PA rule (CMS-0062-P) is still proposed — finalization timeline is uncertain.
 
-**Verdict:** Enter as a clock + denial-reason log for small practices still on Excel/fax. Do not build portal automation in v1.
+**Verdict:** Hold. Drug PA rule expansion is a significant positive signal if finalized; watch the rulemaking calendar.
 
 ### The Pitch
-**Problem:** Since 1 January 2026, Medicare Advantage, Medicaid, CHIP, and FFE QHP payers must decide standard prior auths in 7 calendar days and urgent ones in 72 hours, and every denial must include a specific reason. Billing coordinators at 2–10 provider practices still track this in a spreadsheet next to the fax machine. They miss clocks, they cannot prove a vague denial, and they will need a clean log before 2027 electronic-PA attestation.
+**Problem:** Since January 1, 2026, Medicare Advantage, Medicaid, CHIP, and FFE QHP payers must decide standard prior auths in 7 calendar days and urgent ones in 72 hours, and every denial must include a specific reason. Billing coordinators at 2–10 provider practices still track this in a spreadsheet next to the fax machine. They miss clocks, they cannot prove a vague denial, and they will need a clean log before 2027 electronic-PA attestation. CMS-0062-P proposes extending PA clock and specific-denial requirements to drugs — if finalized, the workflow burden at small practices roughly doubles.
 
 **Solution:** AuthTrack is the PA status board: each request gets a clock, a channel (fax/portal/phone), a denial-reason field, and a reminder before the CMS window closes. v1 is CSV import + form entry — not an Athena integration, not a FHIR client.
 
-**Target customer:** Billing coordinator / office manager at a 2–10 provider US practice (PT, specialty lite, independent primary care) that is not on Athena+Linear Health. Buyer: office manager. User: the biller who owns the Excel PA tab.
+**Target customer:** Billing coordinator / office manager at a 2–10 provider US practice (PT, specialty lite, independent primary care) not on Athena+Linear Health. Buyer: office manager. User: the biller who owns the Excel PA tab.
 
-**Why now:** The clocks are live, not upcoming. The FHIR API mandate is 1 Jan 2027. Practices that do not have a log now will invent one badly six months before MIPS.
+**Why now:** The clocks are live, not upcoming. CMS-0062-P would extend requirements to drugs — the proposed rule adds urgency to building the tool before the rule is finalized. Practices that build good habits now integrate smoothly when their payers go live with FHIR APIs in 2027.
 
 **Why they buy without being sold to:** After a denied MRI with no specific reason and a missed 7-day follow-up, the biller pastes the spreadsheet into AuthTrack, sees two clocks already red, and stops using Excel that week.
 
-**Revenue model:** $149/mo (1 location, 200 PAs). $249/mo (3 locations + reminder SMS). $299/mo (export pack for appeals). Annual −2 months. 14-day trial with sample CSV.
+**Revenue model:** $149/mo (1 location, 200 PAs). $249/mo (3 locations + reminder SMS). $299/mo (export pack for appeals + drug PA module when CMS-0062-P is finalized). Annual −2 months.
 
 **Unfair advantage:** CMS-clock templates + denial-reason required field sized for fax-era shops that enterprise PA platforms ignore.
 
@@ -432,122 +424,120 @@ First added: 2026-08-16 | Last updated: 2026-08-16 | Score delta this week: —
 
 ### Critic's Assessment
 **Rating:** 7/10 | **Last critique:** 2026-08-16
-**Strongest part:** Regulation is already in force; the buyer is a person with a spreadsheet, not a health-system IT committee.
+**Strongest part:** Regulation is already in force; the buyer is a person with a spreadsheet, not a health-system IT committee. Drug PA extension would significantly expand the addressable workflow.
 **Open question:** Will tiny practices pay, or will they wait for their clearinghouse to add a free clock?
 
 ---
 
-## #9 — BreakWatch  ·  67/100  ·  NEW
-First added: 2026-08-16 | Last updated: 2026-08-16 | Score delta this week: —
+## #9 — IntegSecPack  ·  71/100  ·  NEW
+First added: 2026-09-18 | Last updated: 2026-09-18 | Score delta this week: +71
 
-> Know which of your vendors shipped a breaking API change before production does.
+> Stop losing enterprise deals to integration security reviews — generate your AI-agent compliance pack in an afternoon.
 
 ### Score Breakdown
-- Solo Buildability:   15/20  (changelog crawlers + OpenAPI diff + Slack; contract tests later)
-- Value Clarity:       14/20  (needs a sentence of setup; “41% of breaking changes are unannounced” lands with eng leads)
-- Market Timing:       11/20  (Specway 2026: 68% of integrations take 3× estimate, 2.3 breaking changes/year; Optic/Speakeasy/Bump.sh exist — wedge is consumer-side watch, not producer docs)
-- B2B Monetisation:    14/20  ($149–399/mo for a 5–30 person SaaS that maintains 8+ customer-facing integrations)
-- Pull Factor:         13/20  (eng Twitter after an outage; incident posts travel)
+- Solo Buildability:   14/20  (integration architecture builder + 85-question response library + dossier generator; legal validation is the constraint; no ML engineering required)
+- Value Clarity:       15/20  (68% of B2B SaaS lost deals over integration security; "here is your integration security pack" is a concrete deliverable)
+- Market Timing:       16/20  (agentic AI created an entirely new category of procurement questions in 2026: agent authentication, least-privilege agent scoping, audit logging for automated actions — existing trust centers like Whistic and Vanta Trust Report don't have these sections)
+- B2B Monetisation:    14/20  ($149–499/month; companies have real budget for tools that close enterprise deals)
+- Pull Factor:         12/20  (sales engineers share when it closes a deal; YC founder communities are highly referral-driven)
 
 **Strengths:**
-- Specway’s 2026 integration report names the exact failure: undocumented breaking changes, OAuth overhead, silent 200s.
-- Producer tools (Bump, Speakeasy) help API vendors; consumers of HubSpot/Stripe/Shopify still find out in prod.
-- Incident-shaped onboarding: “paste the APIs that paged you last quarter.”
+- 68% of B2B SaaS companies lost or delayed an enterprise deal due to integration-related security concerns (Ampersand 2026 State of Agentic Integrations Report). The pain is current and quantified.
+- The "AI agent integration section" — covering agent authentication, least-privilege OAuth scoping, audit logging for agentic actions, and data residency for AI inference — is the 2026-specific procurement ask that Whistic, SecurityPal, and Vanta Trust Report do not yet have formalized.
+- "Trial = close a pending deal" is the strongest possible free trial mechanism for a security document tool.
 
 **Risks:**
-- Status pages + vendor changelogs + Optic watchers already “good enough.”
-- Unified API vendors (Merge, Apideck) absorb monitoring.
-- Changelog formats are inconsistent; false positives fatigue the channel.
+- Direct competitors: Whistic, SecurityPal, Vanta Trust Report, Drata Trust Center — all solve the security questionnaire problem for general integrations. Whistic has 25,000+ companies sharing profiles.
+- Vanta will add an "AI agent integration" section to their Trust Report within 12 months.
+- Legal liability risk: if an integration description in the generated dossier is incorrect, the company may face liability when a buyer relies on it.
 
-**Verdict:** Enter as consumer-side breaking-change inbox for small SaaS integration teams. Last seat — kill if Optic ships a cheap “watch these 10 vendor APIs” SKU.
+**Verdict:** Enter as the "AI agent integration security" specialist. Whistic/Vanta cover general integrations; this fills the 2026 agentic-specific gap that standard trust centers haven't reached yet.
 
 ### The Pitch
-**Problem:** Specway’s 2026 API Integration Complexity Report: 68% of integrations take 3.2× the estimate; the average API ships 2.3 breaking changes a year; 41% of those ship with no prior notice. A 15-person SaaS maintaining HubSpot, Stripe, QuickBooks, and Shopify integrations finds out when customers file tickets. Producer-side doc tools do not watch the APIs you consume.
+**Problem:** 68% of B2B SaaS companies have lost or delayed an enterprise deal because of integration-related security or compliance concerns (Ampersand 2026). Enterprise security teams reviewing AI-forward products in 2026 now ask questions that no existing security trust center covers: What OAuth scopes does your agent request? How is the agent's identity scoped and rotated? What audit log exists for actions taken by your AI agent in our systems? Where does data accessed during agent inference reside? These are the questions that a founding engineer spends 3 weeks answering by hand — often for every enterprise deal independently — because Whistic and Vanta Trust Report were designed for the 2022 integration security review, not the 2026 agentic one.
 
-**Solution:** BreakWatch watches the vendor APIs you depend on — changelogs, OpenAPI diffs, status pages — and opens a Slack item when a field disappears or an auth flow changes. You subscribe to endpoints, not to a new iPaaS.
+**Solution:** IntegSecPack generates a reusable AI-agent integration security dossier from a structured builder. The founder describes their integration architecture — OAuth scopes, data flows, agent identity management, audit logging, storage locations, encryption approach — through a 45-minute guided process. IntegSecPack produces a packaged dossier (PDF + JSON + hosted URL) with 85 questions answered, including a dedicated "AI Agent Integration" section covering the 2026-specific procurement asks. When the next enterprise security questionnaire arrives, 80% is pre-answered.
 
-**Target customer:** Eng lead / founding engineer at a 5–30 person SaaS with 5–15 outbound integrations. Buyer: CTO. Users: the two engineers on integration on-call.
+**Target customer:** B2B SaaS founder or VP Engineering at a 15–150 person company with 3–15 customer-facing integrations and at least one AI agent or MCP-connected workflow. Buyer: founder or VP Sales. User: founding engineer or sales engineer who currently fills security questionnaires manually. First-use trigger: a stalled enterprise deal with an open security questionnaire.
 
-**Why now:** AI agents made stale field mappings a liability, not just a dashboard bug (Ampersand 2026). Integration debt is now an on-call problem.
+**Why now:** In 2026, every B2B SaaS adding an AI agent or MCP integration faces a new wave of security questions that 2023's standard questionnaire didn't cover. Enterprise security teams have formalized "agentic integration" as a separate review category. The Ampersand 2026 report quantifies the scale: 68% of companies have lost/delayed deals. Whistic and Vanta Trust Report have not yet shipped an AI-agent-specific template.
 
-**Why they buy without being sold to:** After a silent HubSpot field rename corrupts a week of deals, the eng lead adds HubSpot to BreakWatch and requires a Slack ping before the next change hits prod.
+**Why they buy without being sold to:** A B2B SaaS founder who just lost a $120K/year deal because the buyer's security team couldn't get comfortable with their Claude agent's Salesforce integration scope runs IntegSecPack during a 14-day trial, generates their dossier, shares the hosted URL in the next deal's due diligence. The deal closes. The trial converts.
 
-**Revenue model:** $149/mo (10 watched APIs). $249/mo (30 APIs + OpenAPI diff). $399/mo (contract-test hooks). Annual −2 months. 14-day trial.
+**Revenue model:** $149/month (1 integration profile, 10 questionnaire exports/month, hosted URL). $299/month (5 profiles + AI-agent section + custom branding). $499/month (unlimited + questionnaire intake parser — paste a PDF questionnaire, get pre-populated answers). Annual −2 months. 14-day trial with 1 full dossier generated.
 
-**Unfair advantage:** Consumer-side watchlist of the 20 APIs SMB SaaS actually breaks on — not a general API catalog.
+**Unfair advantage:** First to formalize the "AI Agent Integration Security" section as a distinct questionnaire category with 2026-specific questions (agent OAuth scoping, audit logging for agentic actions, data residency for AI inference). Distribution through YC alumni, Anthropic Builder Community, and AI-forward SaaS founders who are the exact people building MCP integrations and hitting enterprise security walls.
 
 ### Solo Build Plan
-1. Weeks 1–3: Changelog + OpenAPI watchers for Stripe, HubSpot, Shopify, QBO; Slack alerts.
-2. Weeks 4–5: Diff UI (removed fields, auth changes); mute/noise controls.
-3. Weeks 6–7: GitHub Action that comments on PRs when a watched spec moved.
-4. Weeks 8–9: Stripe; “paste last incident” onboarding.
-5. Weeks 10–12: Pilot 6 SaaS teams via r/SaaS and integration-engineer Slack.
+1. Weeks 1–3: Integration architecture builder (OAuth scopes, data flows, agent identity, audit logging, storage, encryption); 85-question response library with SaaS integration patterns; AI Agent Integration section (20 agent-specific questions).
+2. Weeks 4–5: PDF/JSON dossier generator; SOC 2/ISO 27001/CSF framework mapping; hosted shareable URL with access controls.
+3. Weeks 6–7: Questionnaire intake parser (paste PDF questionnaire → AI maps to existing answers); version tracking (what changed since last quarter).
+4. Weeks 8–9: Stripe; 14-day trial with 1 full dossier; onboarding flow for "I have a pending deal" use case.
+5. Weeks 10–12: Pilot 6 B2B SaaS founders via YC alumni forum, Anthropic Builder Community, and Lenny's Newsletter / Cerebral Valley communities.
 
 ### Critic's Assessment
-**Rating:** 6/10 | **Last critique:** 2026-08-16
-**Strongest part:** Specway quantified the pain this year; producer tools do not cover the consumer.
-**Open question:** Does Optic or Speakeasy already sell “watch vendor APIs you don’t own”?
+**Rating:** 6/10 | **Last critique:** 2026-09-18
+**Strongest part:** The "AI Agent Integration" section is a genuine 2026-specific gap in Whistic/Vanta Trust Report — it's narrow enough to differentiate and broad enough to matter across the growing population of AI-integrated SaaS companies.
+**Open question:** Can IntegSecPack differentiate from Whistic's 25,000-company head start long enough to build a network effect before Vanta ships an AI-agent-specific Trust Report section?
 
 ---
 
-## #10 — FlowTrace  ·  62/100  ·  DECLINED
-First added: 2026-07-31 | Last updated: 2026-08-16 | Score delta this week: −5
+## #10 — ChurnDetect  ·  70/100  ·  UNCHANGED
+First added: 2026-07-31 | Last updated: 2026-09-18 | Score delta this week: —
 
-> One dashboard to see what all your AI agents are doing — and stop a runaway task before it costs real money.
+> Find the customers about to leave — 90 days before they tell you — from the support tickets they are already sending.
 
 ### Score Breakdown
-- Solo Buildability:   11/20  (multi-framework log ingestion with different APIs per platform; hard but achievable if scoped to OpenAI + Claude + Zapier only for v1)
-- Value Clarity:       13/20  (−1 — “agent governance” now means AUP PDFs at $99/mo; spend kill-switch needs extra explanation)
-- Market Timing:       11/20  (−3 — SanctumShield $99/mo owns mid-market Agent Governance messaging; Helicone/Langfuse cover spend dashboards; runtime pause across OpenAI+Claude+Zapier still thin)
-- B2B Monetisation:    14/20  ($149–599/month; AI-native companies have tooling budgets; runaway-agent prevention has direct cost-avoidance ROI)
-- Pull Factor:         12/20  (−2 — category noise; must stay ruthlessly on runaway spend pause)
+- Solo Buildability:   15/20  (Zendesk/Intercom API + AI ticket classification + Slack alerts = 3 months feasible for a focused MVP)
+- Value Clarity:       17/20  ("retrospective demo on your last churned account" is self-closing; no pitch required after that demo)
+- Market Timing:       13/20  (Teravictus still live, still usage-based at $25/week, still no G2/Capterra reviews; Zendesk Intelligent Triage expanded but still ticket-level sentiment, not account-level churn)
+- B2B Monetisation:    15/20  ($199–599/month; CS budget exists; protecting $30K ARR easily justifies $349/month)
+- Pull Factor:         13/20  (CS AI category noise; retrospective demo still the wedge)
 
 **Strengths:**
-- 27% of enterprises have no real-time way to stop a runaway agent (VentureBeat 2026). Notable Capital (VC, July 2026) explicitly calls the coordination layer the "missing infrastructure."
-- Cross-platform log ingestion (OpenAI + Claude + Zapier) that no platform's native dashboard has — each only sees its own agents.
-- "What just happened?" retrospective after an incident is a more honest entry point than proactive governance pitches.
+- Teravictus remains the main competitor — still no G2 or Capterra reviews as of September 18, 2026. $25/week base pricing, usage-based, Zendesk-only, 30-day history. ChurnDetect differentiators intact: 6-month historical, Intercom connector, account-level aggregation vs. ticket-level alerting.
+- Retrospective demo (see the 8 tickets before your last churned account) remains the strongest self-closing sales mechanism in this cookbook.
+- 60% of B2B software buyers regretted their purchase in 18 months (Helply 2026); churn risk in tickets is a persistent and growing signal source.
 
 **Risks:**
-- Solo buildability is genuinely hard: each platform has different log formats, APIs, and rate limits. Copilot logs are nearly inaccessible programmatically.
-- Anthropic or OpenAI could ship native cross-agent orchestration with shared audit logs, removing the need for an external layer.
-- The market of "15–100 person AI-native companies running 3+ agents simultaneously" may be smaller than it appears in 2026.
+- Zendesk's native "Intelligent Triage" classifies intent and sentiment per ticket — if Zendesk adds account-level churn prediction as a native feature, the differentiation narrows significantly.
+- PII/SOC2 considerations for storing and scanning customer support data require explicit consent flows.
+- Teravictus may receive its first G2/Capterra reviews by next quarter, increasing its perceived credibility.
 
-**Verdict:** Last seat. Runtime spend kill-switch only — or remove next run.
+**Verdict:** Hold retrospective-demo wedge. Teravictus still without public reviews; account-level differentiation intact.
 
 ### The Pitch
-**Problem:** Fast-growing companies in 2026 run AI agents from multiple platforms simultaneously — a Copilot agent in Teams, a Zendesk bot, a Claude-based GitHub code reviewer, a Zapier lead-routing agent. These agents operate in silos with no shared log, no shared spend view, and no human escalation path. When something goes wrong — a runaway agent makes $500 in unexpected API calls, a bot auto-replies to 50 customers with wrong product information — no one can reconstruct the timeline. 27% of enterprises have no real-time way to stop a runaway agent before the bill arrives (VentureBeat / Camunda 2026 State of Agentic Orchestration report).
+**Problem:** B2B SaaS companies discover customer churn risk almost exclusively at renewal time, when the decision is already made. 60% of B2B buyers regretted their purchase in the past 18 months. The warning signals — frustration in tickets, repeated unresolved issues, competitor mentions, escalating response times — are buried in the support inbox. CS teams classify tickets by "resolved / open," not by "churn risk." A $50K ARR customer silently decides to cancel three months before renewal; the first official indication is a "not renewing" email.
 
-**Solution:** FlowTrace is a lightweight coordination panel that sits above your existing AI tools. It reads agent activity logs via API and webhook, maintains a shared timeline of agent decisions and actions, surfaces decisions that need human review, and lets you set spending and action limits across all agents. When an agent hits a limit or makes a flagged decision, FlowTrace pauses it and pings the right human in Slack. It is not a new agent platform — it is the control layer for the agents you already have.
+**Solution:** ChurnDetect connects to Zendesk or Intercom, reads the past 6 months of support tickets using AI, and classifies each conversation by churn risk language, unresolved issue patterns, feature gaps, and competitive mentions. It generates a weekly list of "accounts at risk" with the specific threads that triggered the flag.
 
-**Target customer:** Engineering lead / ops manager at a 15–100 person AI-native or AI-forward company running 3–10 AI agents from multiple platforms. Buyer: eng lead or COO. Users: engineering team + operations. Company does not yet have a dedicated AI governance function. Runs OpenAI, Claude, or Zapier agents in production — not Microsoft enterprise stack.
+**Target customer:** Customer success manager / VP CS at 10–150 person B2B SaaS company with 100+ customers. Buyer: VP CS or CRO. Uses Zendesk or Intercom. Does not have Gainsight or ChurnZero. Company runs $1M–15M ARR.
 
-**Why now:** Agent sprawl is a brand-new 2026 organisational problem that emerged as every major SaaS platform shipped its own agent. Notable Capital published research in July 2026 identifying the "coordination layer" as the critical missing infrastructure for the agentic era. The problem is real, but SanctumShield ($99/mo AUP + risk report) and Helicone/Langfuse (spend dashboards) filled the adjacent shelves. The remaining hole is a hard pause across OpenAI+Claude+Zapier — not another policy PDF.
+**Why now:** LLMs in 2026 classify "this is taking way too long to resolve" as churn risk where keyword filters miss it. The cost is under $0.001 per ticket. Enterprise CS platforms are priced at $20–30K/year, leaving the 10–150 person SaaS with no dedicated churn-detection layer.
 
-**Why they buy without being sold to:** After an AI agent makes an unintended API call costing $500, or auto-replies to a customer thread with incorrect information, the engineering lead sets up FlowTrace that afternoon so it can never happen again without human approval.
+**Why they buy without being sold to:** A CS manager who lost a $30K account to silent churn runs the free ChurnDetect retrospective on that account's last 8 tickets, sees the risk flags she missed 90 days ago, and purchases immediately.
 
-**Revenue model:** $149/month (3 agent connections, 30-day log, spend alerts). $299/month (10 agent connections, 90-day log, hard spend limits, Slack escalation). $599/month (unlimited + approval workflows + custom action-type blocklist). 14-day trial.
+**Revenue model:** $199/month (up to 500 accounts + Zendesk). $349/month (unlimited accounts + Intercom/Zendesk + Slack alerts). $599/month (unlimited + API + custom risk taxonomy). 14-day trial. Annual −2 months.
 
-**Unfair advantage:** Cross-platform log ingestion (OpenAI + Claude + Zapier) that platform-native dashboards cannot replicate across stacks. The "incident retrospective" onboarding flow turns the trial into a self-closing pitch for any team that has already experienced a runaway agent.
+**Unfair advantage:** Historical retrospective demo that turns the free trial into a self-closing pitch. Vertical risk taxonomies (SaaS-specific, agency-specific) that generic sentiment tools do not have.
 
 ### Solo Build Plan
-1. Weeks 1–3: OpenAI usage API + Claude API log ingestion; Zapier webhook receiver; shared agent activity timeline view.
-2. Weeks 4–5: Spend tracking (OpenAI usage API, Claude usage API); runaway-agent detection (spend spike, action-count spike); Slack escalation.
-3. Weeks 6–7: Hard spend limits (per-agent monthly cap, returns 402 to caller); per-agent action-type blocklist.
-4. Weeks 8–9: Stripe; incident-retrospective demo flow ("replay your last agent incident"); onboarding for 5-agent teams.
-5. Weeks 10–12: Pilot 5 AI-native companies through Anthropic Builder Community and AI engineer Slack groups.
+1. Weeks 1–3: Zendesk API connector; 6-month historical ticket ingestion; AI risk classification per thread.
+2. Weeks 4–5: Account-level aggregation; weekly digest email + Slack; risk score per account.
+3. Weeks 6–7: Intercom connector; custom risk terms; "at risk" list with flagged quotes.
+4. Weeks 8–9: Stripe; retrospective demo generator; explicit data consent flow.
+5. Weeks 10–12: Pilot 8 SaaS companies through CS leader Slack communities and Product Hunt launch.
 
 ### Critic's Assessment
-**Rating:** 5/10 | **Last critique:** 2026-08-16
-**Strongest part:** SanctumShield answered the board-artifact job at $99; the remaining job is a real 402 across vendors.
-**Open question:** Is anyone paying for a cross-vendor pause, or do they just set limits in OpenAI’s own dashboard?
+**Rating:** 7/10 | **Last critique:** 2026-08-16
+**Strongest part:** The retrospective demo on a recently churned account is a self-closing conversion mechanism unlike anything else in the cookbook.
+**Open question:** Will Zendesk turn topic+sentiment into an account-health SKU in H2 2026?
 
----
 ---
 
 ## Removed this run
 | Entry | Last score | Reason |
 |-------|------------|--------|
-| WholesaleDesk | 70 → 52 | **Orderwerks**, **Zoey**, and **WizCommerce** already ship QuickBooks-native B2B buyer portals — R5 “no SMB portal below Shopify” fails launch canary |
-| QuoteDock | 69 → 54 | **FasterQuotes**, **Vesel**, **Navix**, **Wisor** parse/forward RFQ email into comparisons — R5 kill condition (paste UX under $100-ish shipper SKU) met |
-| DataReady | 65 → 48 | **Datris.ai hosted** is live; **HubSpot Data Agent** is native — R5 “exit without 2+ pilots” |
-| PromptFence | 63 → 45 | **RAIC**, **PromptWall**, **SanctumShield ($99/mo)** densify SMB Shadow AI allowlist+audit — last seat expired |
+| MCPCostMonitor | 74 → REMOVED | **MCPSpend.com** (mcpspend.com) launched live: stdio proxy wrapping MCP servers, per-tool/project/customer cost attribution, free tier 25K calls/month, Pro at $29/month. Identical product at 10× lower price. Kill signal confirmed. |
+| BriefDesk | 67 → DISPLACED | Displaced from top-10 by CRAReport (77), DORAIncident (73), and IntegSecPack (71). HubSpot QBO native sync (April 2026) narrows the differentiation further. |
+| MarkPack | 69 → DISPLACED | Displaced from top-10. Commission sent first RFI requests to 30+ AI companies (Sept 1, 2026) — enforcement is real, but AnnexOps/EUAgentAI/RiskWatch all live as competitors. Dec 2 marking grace ~75 days remaining. |
